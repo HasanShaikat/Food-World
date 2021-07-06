@@ -6,7 +6,7 @@ span{
     color: #261CCC;
 }
 p{
-    color: #525252;
+    color: #7c7c7c;
 }
 
 #top-banner{
@@ -152,7 +152,7 @@ p{
     outline: none;
 }
 .contact-form .msg{
-    padding: 50px 100px 50px 10px;
+    padding: 10px 100px 100px 10px;
     margin-bottom: 30px;
 }
 .contact-form a{
@@ -170,7 +170,4 @@ p{
 }
 #footer h1{
     padding-bottom: 25px;
-}
-#footer p{
-    color: #7c7c7c;
 }
