@@ -108,7 +108,6 @@ p{
     background-image: linear-gradient(#F1F0FE, #F1F0FE);
 }
 #people-say h1{
-    /* border-bottom: 1px solid #261CCC; */
     padding-bottom: 10px;
 }
 .people-content img{
@@ -118,7 +117,6 @@ p{
 .people-content h3{
     color: #261CCC;
     margin-top: 0;
-    /* border-bottom: 1px solid #261CCC; */
     padding-bottom: 10px;
 }
 
@@ -168,6 +166,11 @@ p{
 #footer{
     text-align: center;
     background-image: linear-gradient(#F1F0FE, #F1F0FE);
-    padding-top: 20px;
-    padding-bottom: 50px;
+    padding: 20px 100px 50px 100px;
+}
+#footer h1{
+    padding-bottom: 25px;
+}
+#footer p{
+    color: #7c7c7c;
 }
