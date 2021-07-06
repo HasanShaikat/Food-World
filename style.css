@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+span{
+    color: #261CCC;
+}
+p{
+    color: #525252;
+}
+
+#top-banner{
+    display: flex;
+    padding: 0 100px;
+}
+.banner-content{
+    width: 50%;
+    margin-right: 2%;
+}
+.banner-content h1{
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.banner-content p{
+    padding-bottom: 20px;
+}
+.banner-content a{
+    text-decoration: none;
+    padding: 10px 35px;
+    background-image: linear-gradient(#9f9cdd, #261CCC);
+    color: #ffffff;
+    border-radius: 5px;
+}
+.banner-img{
+    width: 43%;
+    text-align: right;
+}
+.banner-img img{
+    padding-top: 40px;
+}
+
+#about{
+    padding: 0 100px;
+    background: url(images/About-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    margin: 50px 0;
+}
+.about-pic{
+    width: 45%;
+}
+.about-pic img{
+    width: 60%;
+    padding-top: 50px;
+    margin-bottom: -6px;
+}
+.about-content{
+    width: 45%;
+    margin-left: 5%;
+    padding-top: 100px;
+}
+.about-content h1{
+    font-size: 30px;
+}
+.about-content p{
+    padding: 10px 0 50px 0;
+}
+.about-content p strong{
+    color: #261CCC;
+}
+.about-content a{
+    text-decoration: none;
+    padding: 10px 35px;
+    background-image: linear-gradient(#9f9cdd, #261CCC);
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+#recipies{
+    padding: 0 100px;
+    margin-bottom: 50px;
+}
+.recipies-head{
+    text-align: center;
+}
+.recipies-body{
+    display: flex;
+    padding-top: 50px;
+}
+.recipies-item{
+    text-align: center;
+    width: 30%;
+    margin-right: 5%;
+    box-shadow: 5px 5px 15px 5px #bbbbbb;
+    border-radius: 5px;
+}
+.recipies-item img{
+    width: 100%;
+}
+.recipies-item p{
+    padding: 10px 20px 10px 20px;
+}
+
+#people-say{
+    text-align: center;
+    margin: 50px 100px;
+
+}
+#people-say h1{
+    border-bottom: 1px solid #261CCC;
+    padding-bottom: 10px;
+}
+.people-content img{
+    width: 60px;
+    border-radius: 90px;
+}
+.people-content h3{
+    color: #261CCC;
+    margin-top: 0;
+    border-bottom: 1px solid #261CCC;
+    padding-bottom: 10px;
+}
